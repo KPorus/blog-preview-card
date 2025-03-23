@@ -1,4 +1,3 @@
-```markdown
 # Frontend Mentor - Blog Preview Card Solution
 
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -71,4 +70,3 @@ For future projects, I plan to continue improving my responsiveness and accessib
 ## Acknowledgments
 
 Thanks to Frontend Mentor for the awesome challenge and to all the people who helped me improve my skills during this project.
-```
