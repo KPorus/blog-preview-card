@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500..800&display=swap");
+:root {
+  --white: hsl(0, 0%, 100%);
+  --yelllow: hsl(47, 88%, 63%);
+  --gray-950: hsl(0, 0%, 7%);
+  --gray-500: hsl(0, 0%, 42%);
+}
+
+* {
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--yelllow);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.card {
+  width: 24rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.5rem 0.5rem rgb(0, 0, 0);
+  border: 1px solid var(--gray-950);
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+}
+
+.tag {
+  width: 5.125rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: left;
+  background-color: var(--yelllow);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+h2 {
+  padding: 0.75rem 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+h1:hover {
+  color: var(--yelllow);
+}
+
+p {
+  padding-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--gray-500);
+}
+
+.author {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.author-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 20.4375rem;
+  }
+  .tag {
+    font-size: 0.75rem;
+  }
+  h2 {
+    font-size: 0.75rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+}
+
+
+/* Detect touch-enabled devices */
+@media (pointer: coarse) {
+    h1:hover {
+        color: var(--gray-950);
+    }
+}
