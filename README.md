@@ -26,7 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog Preview Card Screenshot](./screenshot.jpg)
+![Blog Preview Card Mobile Screenshot](./preview_mobile.png)
+![Blog Preview Card Desktop without hover Screenshot](./preview_desktop1.png)
+![Blog Preview Card Desktop with hover Screenshot](./preview_desktop2.png)
 
 ### Links
 
