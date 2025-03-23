@@ -37,7 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1.25rem;
   box-shadow: 0.5rem 0.5rem rgb(0, 0, 0);
   border: 1px solid var(--gray-950);
